@@ -7,7 +7,7 @@
 #### Roles = Koosha Abbasi, Programmer
 
 
-![](PongUML.jpeg)
+![](https://github.com/Dhruv-Reddy/programmingPortfolio/blob/gh-pages/images/PongUML.jpeg?raw=true)
 
 
 Press [here](https://github.com/Dhruv-Reddy/FinalProject/blob/main/PongGame.zip) to get code for final project
