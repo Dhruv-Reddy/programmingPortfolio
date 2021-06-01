@@ -22,4 +22,4 @@ Space game final for 2020-2021
 
 Source file here
 
-![](Screen Shot 2021-06-01 at 2.20.08 PM.png?raw=true)
+![](https://github.com/Dhruv-Reddy/programmingPortfolio/blob/gh-pages/images/Screen%20Shot%202021-06-01%20at%202.20.08%20PM.png?raw=true)
