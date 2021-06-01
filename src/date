@@ -1,0 +1,64 @@
+import java.util.Calendar;
+import java.util.Date;
+import java.lang.Math;
+
+class Main {
+public static void main(String[] args){
+Calendar c1 = Calendar.getInstance();
+Calendar c2 = Calendar.getInstance();
+
+
+c1.set(2006,8,31);
+c2.set(2021,06,01);
+
+
+
+long miliForC1 = c1.getTimeInMillis();
+long miliForC2 = c2.getTimeInMillis();
+long secondForC1 = c1.getTimeInMillis() / 1000;
+long secondForC2 = c2.getTimeInMillis() / 1000;
+long minuteForC1 = c1.getTimeInMillis() / 60000;
+long minuteForC2 = c2.getTimeInMillis() / 60000;
+double hourForC1 = c1.getTimeInMillis()  / 3.6 * (Math.pow(10.0, 2.0));
+double hourForC2 = c2.getTimeInMillis() / 3.6 * (Math.pow(10.0, 2.0));
+double dayForC1 = c1.getTimeInMillis() / 8.64 * (Math.pow(10.0, 7.0));
+double dayForC2 = c2.getTimeInMillis() / 8.64 * (Math.pow(10.0, 7.0));
+double monthForC1 = c1.getTimeInMillis() / 2.628 * (Math.pow(10.0, 9.0));
+double monthForC2 = c2.getTimeInMillis() / 2.628 * (Math.pow(10.0, 9.0));
+double yearForC1 = c1.getTimeInMillis() / 3.154 * (Math.pow(10.0, 10.0));
+double yearForC2 = c2.getTimeInMillis() / 3.154 * (Math.pow(10.0, 10.0));
+double decadeForC1 = c1.getTimeInMillis() / 3.154 * (Math.pow(10.0, 11.0));
+double decadeForC2 = c2.getTimeInMillis() / 3.154 * (Math.pow(10.0, 11.0));
+double centuryForC1 = c1.getTimeInMillis() / 3.154 * (Math.pow(10.0, 12.0));
+double centuryForC2 = c2.getTimeInMillis() / 3.154 * (Math.pow(10.0, 12.0));
+
+long diffBetween = miliForC2 - miliForC1;
+long diffBetween1 = secondForC2 - secondForC1;
+long diffBetween2 = minuteForC2 - minuteForC1;
+double diffBetween3 = hourForC2 - hourForC1;
+double diffBetween4 = dayForC2 - dayForC1;
+double diffBetween5 = monthForC2 - monthForC1;
+double diffBetween6 = yearForC2 - yearForC1;
+double diffBetween7 = decadeForC2 - decadeForC1;
+double diffBetween8 = centuryForC2 - centuryForC1;
+System.out.println("milliseconds = " + diffBetween);
+
+System.out.println("seconds = " + diffBetween1);
+
+System.out.println("minutes = " + diffBetween2);
+
+System.out.println("hours = " + diffBetween3);
+
+System.out.println("days = " + diffBetween4);
+
+System.out.println("months = " + diffBetween5);
+
+System.out.println("years = " + diffBetween6);
+
+System.out.println("decades = " + diffBetween7);
+
+System.out.println("century = " + diffBetween8);
+
+}
+
+}
